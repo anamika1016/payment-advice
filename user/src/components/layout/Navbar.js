@@ -70,7 +70,9 @@ const Navbar = () => {
 
           <div className="flex flex-row gap-5">
             <PrimaryButton name="Admin" to="/admin/dashboard" />
-
+            <div className="hidden lg:flex">
+            <PrimaryButton name="Login" to="/login" />
+          </div>
             <div className="lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -79,10 +81,6 @@ const Navbar = () => {
                 <IoMenuOutline className="h-[24px] w-[24px]" />
               </button>
             </div>
-          </div>
-
-          <div className="hidden lg:flex mr-5">
-            <PrimaryButton name="Login" to="/login" />
           </div>
         </div>
         <Drawer

@@ -6,7 +6,6 @@ import Brands from "./pages/Brands";
 import AllCars from "./pages/cars/AllCars";
 import AddCar from "./pages/cars/AddCar";
 import Dashboard from "./pages/Dashboard";
-import Offers from "./pages/Offers";
 import Setting from "./pages/Setting";
 import SocialManagement from "./pages/SocialManagement";
 import VerifyUser from "./pages/VerifyUser";
@@ -59,11 +58,6 @@ export const routes = [
         name: "Edit Car",
         path: "/edit-car",
         element: <AddCar />,
-      },
-      {
-        name: "Offers",
-        path: "/offers",
-        element: <Offers />,
       },
       {
         name: "Admins/ Users",

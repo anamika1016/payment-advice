@@ -1,7 +1,7 @@
-import bannerImage1 from "../assets/payment.jpg"
+import bannerImage1 from "../assets/payment3.jpg"
 import bannerImage2 from "../assets/payment1.jpg"
-import bannerImage3 from "../assets/payment2.jpg"
-import bannerImage4 from "../assets/payment3.jpg"
+import bannerImage3 from "../assets/payment.jpg"
+import bannerImage4 from "../assets/payment2.jpg"
 
 export const bannerImages = [
     bannerImage1,
