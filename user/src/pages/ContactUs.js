@@ -60,9 +60,9 @@ const ContactUs = () => {
                 <h3 className="text-xl font-semibold">Phone</h3>
               </div>
               <p className="text-gray-600">
-                Support: +1 234 567 8900
+                Support: + 0755 432 2373
                 <br />
-                Office: +1 234 567 8901
+                Office: + 0755 432 2373
               </p>
             </div>
 
@@ -74,7 +74,7 @@ const ContactUs = () => {
               <p className="text-gray-600">
                 support@company.com
                 <br />
-                info@company.com
+                ploughmanagro.com
               </p>
             </div>
           </div>

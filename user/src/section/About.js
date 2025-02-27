@@ -20,24 +20,13 @@ const About = () => {
 
         <div className="py-4">
           <h6 className="max-w-[700px] text-primary text-sm">
-            At Rental Master, we offer a convenient and reliable car rental
-            service tailored to meet your travel needs. Whether you're planning
-            a weekend getaway, a business trip, or just need a vehicle for
-            everyday errands, our fleet of well-maintained cars is ready to take
-            you wherever you need to go.
+            At Payment Masters, we offer a seamless and secure payment processing service tailored to meet your financial needs. Whether you're managing business transactions, making online purchases, or handling bulk payments, our platform ensures reliability and efficiency.
             <br />
             <br />
-            With a wide range of vehicles from compact cars to luxury sedans and
-            SUVs, we ensure that you find the perfect ride for your journey. Our
-            rental process is quick, simple, and hassle-free, offering flexible
-            booking options and affordable pricing.
+            With a wide range of payment solutions, from instant transfers to scheduled payments, we provide flexibility and convenience. Our platform is designed for businesses and individuals alike, ensuring smooth and transparent financial transactions.
             <br />
             <br />
-            At Rental Master, we prioritize customer satisfaction by providing
-            24/7 customer support and ensuring that each rental vehicle is
-            clean, safe, and in excellent condition. Let us be your trusted
-            travel companion, helping you reach your destination comfortably and
-            stress-free.
+            At Payment Masters, customer satisfaction is our priority. We offer 24/7 customer support, industry-leading security, and a user-friendly interface to make payments easier than ever. Let us be your trusted partner in handling your financial transactions efficiently and securely.
           </h6>
         </div>
       </div>

@@ -29,18 +29,18 @@ const Footer = ({ NoEmail }) => {
 
             <div className="space-y-4">
               <a
-                href="mailto:info@rentalmaster.com"
+                href="mailto:ploughmanagro.com"
                 className="flex items-center gap-3 group hover:text-blue-400 transition-colors text-white"
               >
                 <MdMail className="w-5 h-5 group-hover:text-blue-400 transition-colors" />
-                <span>info@rentalmaster.com</span>
+                <span>ploughmanagro.com</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+ 0755 432 2373"
                 className="flex items-center gap-3 group hover:text-blue-400 transition-colors text-white"
               >
                 <MdPhone className="w-5 h-5 group-hover:text-blue-400 transition-colors" />
-                <span>+1 (234) 567-890</span>
+                <span>+ 0755 432 2373</span>
               </a>
             </div>
           </div>

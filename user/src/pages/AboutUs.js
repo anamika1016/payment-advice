@@ -4,79 +4,38 @@ import { Link } from "react-router-dom";
 import { useData } from "../context/data";
 
 const AboutUs = () => {
-  const {city} = useData();
+  const { city } = useData();
   return (
     <Layout NoEmail={true}>
       <div className="px-[5vw] md:px-[10vw] lg:px-[15vw] xl:px-[20vw] 2xl:px-[25vw] py-[70px]">
         <div className="flex justify-center items-center rounded-xl shadow-md bg-secondary h-[200px] text-white">
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-4xl font-semibold">About Us</div>
-            <div className="text-sm">Home &gt; about Us</div>
+            <div className="text-sm">Home &gt; About Us</div>
           </div>
         </div>
         <br />
         <br />
         <div className="mt-4 text-lg text-gray">
           <p>
-            At Rental Masters, we aim to redefine the car rental experience for
-            self-drive enthusiasts across India. As a proud subsidiary of a
-            globally recognized car rental leader, we bring a combination of
-            world-class service and unmatched convenience, providing you the
-            freedom to explore with ease. With a fleet of meticulously
-            maintained cars and a seamless rental process, Rental Masters is
-            your perfect companion on every road trip, whether it's a weekend
-            getaway, a business trip, or simply a change from your everyday
-            vehicle.
+            At Payment Masters, we are dedicated to simplifying and enhancing your payment experience across multiple platforms. With our seamless and secure transaction solutions, we ensure that your financial dealings are swift, transparent, and hassle-free.
             <br />
-            <br /> Rental Masters is now present in 20+ major cities across
-            India, including Bangalore, Mumbai, Delhi-NCR, Pune, Hyderabad,
-            Chennai, Jaipur, Ahmedabad, and more. Our <Link to={`/${city}/car-rentals`} className="text-blue-700 font-bold">self-drive rental </Link> options
-            cater to a wide range of preferences—from compact hatchbacks and
-            sleek sedans to spacious SUVs, MUVs, and luxury cars—ensuring
-            there's something for everyone.
+            <br /> Payment Masters is now serving customers in 20+ major cities across India, including Bangalore, Mumbai, Delhi-NCR, Pune, Hyderabad, Chennai, Jaipur, Ahmedabad, and more. Our <Link to={`/${city}/payment-services`} className="text-blue-700 font-bold">payment solutions</Link> cater to a wide range of needs—from individual users to businesses—ensuring secure and reliable transactions every time.
             <br />
-            <br /> Our journey began in 2018, born out of a desire to cater to
-            modern travelers who value privacy, flexibility, and freedom.
-            Responding to customer demand, we launched Rental Masters to offer a
-            premium self-drive car rental service that blends affordability with
-            top-tier quality. With us, the car is yours to enjoy as you please,
-            whether you're hitting the highway or exploring a new city.
+            <br /> Our journey began in 2018, driven by the vision to provide cutting-edge financial solutions that prioritize user convenience and security. Responding to the evolving market needs, we launched Payment Masters to offer a trusted platform for seamless transactions.
             <br />
-            <br /> We understand that the best journeys are those where you're
-            in complete control, which is why all our rentals come with
-            unlimited kilometers. No limits, no extra charges—just the open
-            road. With transparent pricing, no hidden costs, and the lowest
-            fares guaranteed, we make sure that your experience with Rental
-            Masters is smooth and stress-free.
+            <br /> We understand that financial transactions should be easy, efficient, and secure. That's why our platform offers real-time processing, competitive transaction fees, and 24/7 customer support to ensure that your experience is always smooth and stress-free.
             <br />
             <br />
           </p>
 
-          <div className="text-semibold text-xl">What sets Rental Masters apart?</div>
+          <div className="text-semibold text-xl">Why Choose Payment Masters?</div>
           <ul className="list-disc pl-5 mt-2">
-            <li className="mt-2">
-              Flexible rental plans: Choose from daily, weekly, or monthly
-              rentals.
-            </li>
-            <li className="mt-2">
-              Unlimited kilometers: Enjoy every drive without worrying about
-              limits or logs.
-            </li>
-            <li className="mt-2">
-              Newest fleet: Drive the latest models across all car categories.
-            </li>
-            <li className="mt-2">
-              No hidden charges: All-inclusive fares covering insurance, taxes,
-              and pollution fees.
-            </li>
-            <li className="mt-2">
-              Hassle-free bookings: Doorstep and airport delivery for maximum
-              convenience.
-            </li>
-            <li className="mt-2">
-              Complete peace of mind: In case of an accident, your liability is
-              limited to your refundable security deposit.
-            </li>
+            <li className="mt-2">Flexible payment options: Choose from instant transfers, scheduled payments, and bulk transactions.</li>
+            <li className="mt-2">Secure transactions: Industry-leading encryption and fraud protection.</li>
+            <li className="mt-2">Competitive fees: Transparent pricing with no hidden costs.</li>
+            <li className="mt-2">User-friendly interface: Easy-to-use dashboard for seamless payment management.</li>
+            <li className="mt-2">24/7 Support: Dedicated assistance to help you whenever needed.</li>
           </ul>
         </div>
       </div>
